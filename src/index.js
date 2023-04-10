@@ -1,6 +1,6 @@
 import { ApiClient } from "./api";
-import { createContent } from "./text";
 import { runLinguist } from "./linguist";
+import { createContent } from "./text";
 
 const { GH_TOKEN, GIST_ID, USERNAME, DAYS } = process.env;
 
